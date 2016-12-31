@@ -1,0 +1,27 @@
+{
+	"name": "bashka/bricks_validation_contextual",
+	"description": "Механизм контекстуальной валидации объектов",
+	"license": "GNU-3.0",
+	"authors": [
+		{                                                                                                                                          
+			"name": "Artur Sh. Mamedbekov", 
+			"email": "Artur-Mamedbekov@yandex.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"require-dev": {
+		"phpunit/PHPUnit": "~4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bricks\\Validation\\Contextual\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Bricks\\Validation\\Contextual\\UnitTest\\": "test/"
+		}
+	}
+}
